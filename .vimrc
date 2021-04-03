@@ -6,6 +6,9 @@ set softtabstop=1
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set nobackup
+
+autocmd colorscheme molokai highlight Visual ctermbg=8
 
 syntax on
 colorscheme molokai
