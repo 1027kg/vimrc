@@ -17,6 +17,6 @@ echo "alias la='ls -a'" >> ~/.bash_profile
 mkdir ~/Desktop/nodedocs
 mkdir ~/Desktop/pydocs
 
-sudo swapoff --all
-sudo systemctl stop dphys-swapfile
-sudo systemctl disable dphys-swapfile
+# sudo swapoff --all
+# sudo systemctl stop dphys-swapfile
+# sudo systemctl disable dphys-swapfile
